@@ -1,0 +1,47 @@
+.container{
+    display: flex; gap: 20px;
+
+}
+.containers{
+    display: flex;
+    flex-direction: column;
+    border: 4px black solid;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: whitesmoke;
+    transition: background-color 0.3s ease;
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(90deg, #C7C5F4, #776BCC);		
+    
+}
+.header , .footer{
+    background-color: rgb(118, 107, 204); 
+    width:100%;
+display: flex;
+margin: 0;
+justify-content: space-between;
+
+}
+.text{
+    text-align: center;
+    font-size: larger;
+}
+.navbar{
+    display: flex;
+    gap: 10px;
+    padding-right: 10px;
+}
+.containers:hover{
+    opacity: 0.9;
+
+}
